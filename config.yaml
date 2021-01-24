@@ -1,0 +1,6 @@
+database:
+  host: dbbiblioteca.cqzjxwivtlau.us-east-2.rds.amazonaws.com
+  port: 5432
+  username: postgres
+  password: Biblioteca
+  databaseName: postgres
