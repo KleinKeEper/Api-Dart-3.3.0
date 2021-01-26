@@ -14,8 +14,10 @@ class GenerosConteller extends ResourceController {
 
   @Operation.get('id')
   Future<Response> getGenero(@Bind.path('id') int id) async {
+    print('id $id');
     final genreQuery = Query<Genero_literario>(context)
-      ..where((genero) => genero.id_genero_literario).equalTo(id);
+      ..where((generos_literarios) => generos_literarios.id_genero_literario)
+          .equalTo(id);
 
     final genre = await genreQuery.fetchOne();
     if (genre == null) {
