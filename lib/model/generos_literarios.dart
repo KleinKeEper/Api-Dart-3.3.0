@@ -1,4 +1,5 @@
 import 'package:biblioteca_api_dart/biblioteca_api_dart.dart';
+import 'package:biblioteca_api_dart/model/genero_libros.dart';
 
 class Genero_literario extends ManagedObject<Generos_literarios>
     implements Generos_literarios {
@@ -12,4 +13,6 @@ class Generos_literarios {
 
   @Column()
   String nombre_genero;
+
+  Genero_libro genero_libros;
 }

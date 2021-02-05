@@ -1,5 +1,7 @@
 import 'package:biblioteca_api_dart/controller/autores_controller.dart';
 import 'package:biblioteca_api_dart/controller/generos_literarios_controller.dart';
+import 'package:biblioteca_api_dart/controller/libro_autores_controller.dart';
+import 'package:biblioteca_api_dart/controller/libros_controller.dart';
 
 import 'biblioteca_api_dart.dart';
 
@@ -55,6 +57,8 @@ class BibliotecaApiDartChannel extends ApplicationChannel {
   Controller get entryPoint => Router()
     ..route("/generos/[:id]").link(() => GenerosConteller(context))
     ..route("/autores/[:id]").link(() => AutoresController(context))
+    ..route("/libro_autores/[:id]").link(() => LibrosAutoresController(context))
+    ..route("/libros/[:id]").link(() => LibroController(context))
     ..route("/").linkFunction((request) => Response.ok({"key": "value"}));
 }
 

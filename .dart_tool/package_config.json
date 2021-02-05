@@ -74,12 +74,6 @@
       "languageVersion": "2.3"
     },
     {
-      "name": "file",
-      "rootUri": "file:///home/klein/.pub-cache/hosted/pub.dartlang.org/file-5.2.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.2"
-    },
-    {
       "name": "front_end",
       "rootUri": "file:///home/klein/.pub-cache/hosted/pub.dartlang.org/front_end-0.1.14",
       "packageUri": "lib/",
@@ -108,12 +102,6 @@
       "rootUri": "file:///home/klein/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.3"
-    },
-    {
-      "name": "intl",
-      "rootUri": "file:///home/klein/.pub-cache/hosted/pub.dartlang.org/intl-0.16.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.5"
     },
     {
       "name": "io",
@@ -177,13 +165,13 @@
     },
     {
       "name": "node_interop",
-      "rootUri": "file:///home/klein/.pub-cache/hosted/pub.dartlang.org/node_interop-1.2.1",
+      "rootUri": "file:///home/klein/.pub-cache/hosted/pub.dartlang.org/node_interop-1.1.1",
       "packageUri": "lib/",
-      "languageVersion": "2.9"
+      "languageVersion": "2.0"
     },
     {
       "name": "node_io",
-      "rootUri": "file:///home/klein/.pub-cache/hosted/pub.dartlang.org/node_io-1.2.0",
+      "rootUri": "file:///home/klein/.pub-cache/hosted/pub.dartlang.org/node_io-1.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
@@ -237,9 +225,9 @@
     },
     {
       "name": "postgres",
-      "rootUri": "file:///home/klein/.pub-cache/hosted/pub.dartlang.org/postgres-2.2.0",
+      "rootUri": "file:///home/klein/.pub-cache/hosted/pub.dartlang.org/postgres-2.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.8"
+      "languageVersion": "2.2"
     },
     {
       "name": "pub_cache",
@@ -380,7 +368,7 @@
       "languageVersion": "2.0"
     }
   ],
-  "generated": "2021-01-21T05:38:14.260274Z",
+  "generated": "2021-01-29T16:05:23.869727Z",
   "generator": "pub",
-  "generatorVersion": "2.11.0-213.1.beta"
+  "generatorVersion": "2.7.2"
 }

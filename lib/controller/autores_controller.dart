@@ -27,8 +27,9 @@ class AutoresController extends ResourceController {
   @Operation.post()
   Future<Response> insertAutor(@Bind.body() Autor autor) async {
     final query = Query<Autor>(context)..values = autor;
+    final insert = await query.insert();
 
-    return Response.ok(query.insert());
+    return Response.ok(insert);
   }
 
   @Operation.delete('id')
@@ -47,7 +48,7 @@ class AutoresController extends ResourceController {
     final query = Query<Autor>(context)
       ..where((author) => author.id_autor).equalTo(id)
       ..values = autor;
-    final fetch = query.updateOne();
+    final fetch = await query.updateOne();
 
     if (fetch == null) {
       return Response.notFound(body: 'Authot not found');

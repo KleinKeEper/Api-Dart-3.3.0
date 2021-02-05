@@ -1,4 +1,5 @@
 import 'package:biblioteca_api_dart/biblioteca_api_dart.dart';
+import 'package:biblioteca_api_dart/model/libro_autores.dart';
 
 class Persona extends ManagedObject<Personas> implements Personas {}
 
@@ -22,6 +23,8 @@ class Autores {
   int id_autor;
 
   String nacionalidad;
+
+  Libro_autor libro_autores;
 
   @Relate(#autores)
   Persona persona;
